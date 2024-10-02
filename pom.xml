@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.ZYTRUST</groupId>
   <artifactId>zy-banbif-validacionfacial-lib-android</artifactId>
-  <version>5.3.16</version>
+  <version>5.3.18</version>
   <packaging>pom</packaging>
   <description>DESCRIPTION</description>
 </project>

@@ -4,5 +4,5 @@ jdk:
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install: 
-FILE="-Dfile=zy-banbif-validacionfacial-lib-android-debug-5.3.15.aar" 
-mvn install:install-file $FILE -DgroupId=com.github.ZYTRUST -DartifactId=zy-banbif-validacionfacial-lib-android -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
+FILE="-Dfile=zy-banbif-validacionfacial-lib-android-debug-5.3.15v.aar" 
+mvn install:install-file $FILE -DgroupId=com.github.ZYTRUST -DartifactId=zy-banbif-validacionfacial-lib-android -Dversion=5.3.18 -Dpackaging=aar -DpomFile=pom.xml
