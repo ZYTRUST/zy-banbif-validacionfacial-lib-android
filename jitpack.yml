@@ -1,3 +1,8 @@
+# configuration file for building snapshots and releases with jitpack.io
+jdk:
+  - openjdk17
+before_install:
+  - ./scripts/prepareJitpackEnvironment.sh
 install: 
 FILE="-Dfile=zy-banbif-validacionfacial-lib-android-debug-5.3.15.aar" 
-mvn install:install-file $FILE -DgroupId=com.group.module -DartifactId=zy-banbif-validacionfacial-lib-android -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
+mvn install:install-file $FILE -DgroupId=com.github.ZYTRUST -DartifactId=zy-banbif-validacionfacial-lib-android -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
